@@ -43,19 +43,34 @@ body {
   padding: 0 5% 1.6rem 5%;
 }
 
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.4rem;
 }
 
 .card {
   max-width: 300px;
   height: 370px;
   background: #2a2a2a;
+  border-radius: 7px;
+  box-shadow: 0px 6px 10px rgba(229, 170, 60, 0.177);
+  /* box-shadow: 0 4px 10px rgba(74, 74, 74, 0.4); */
+  border-top: 1px solid #4a4a4a;
+  border-left: 1px solid #4a4a4a;
+  border-bottom: 1px solid #a37e2ee7;
+  border-right: 1px solid #8e6408;
 }
 
 .card-img-container {
@@ -65,6 +80,7 @@ body {
 
 .card-img {
   width: 100%;
+  border-radius: 7px;
 }
 
 .contact-container {
